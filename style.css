@@ -12,4 +12,54 @@
 }
 
 /*Write your CSS rules below!*/
+h1{
+    font-size: 72px;
+}
 
+h1,h2{
+    text-align: center;
+    font-family: "Oswald", "Helvetica Neue";
+    color: #2884C3;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+body{
+    font-size: 1.5em;
+    font-family: "Crimson Text", "Arial";
+    line-height: 1.5;
+}
+
+code{
+    color: #CE234C;
+    background-color: lightgray;
+}
+
+.snippet{
+    background:lightgray;
+}
+
+#font-practice{
+    font-style: italic;
+}
+
+#link-practice:link{
+    color: green;
+}
+
+#link-practice:visited{
+    color: black;
+}
+
+#link-practice:hover{
+    color: red;
+}
+
+#line-height:active{
+    color: blue;
+}
